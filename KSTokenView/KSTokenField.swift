@@ -362,7 +362,7 @@ open class KSTokenField: UITextField {
       }
       
       _caretPoint = _layoutTokens()
-      deselectSelectedToken()
+//      deselectSelectedToken()
       
       if (shouldUpdateText) {
          _updateText()
