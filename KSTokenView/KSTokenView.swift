@@ -437,6 +437,10 @@ open class KSTokenView: UIView {
     open func returnKeyType(type: UIReturnKeyType) {
         _tokenField.returnKeyType = type
     }
+
+    open func selectToken(_ token: KSToken) {
+        _tokenField.selectToken(token)
+    }
     
    //MARK: - Private Methods
    //__________________________________________________________________________________
