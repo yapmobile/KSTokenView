@@ -117,6 +117,12 @@ open class KSTokenView: UIView {
          _tokenField.text = KSTextEmpty+string
       }
    }
+
+   @objc open var tokenField : KSTokenField {
+      get {
+         return _tokenField
+      }
+   } 
    
    /// default is true. token can be deleted with keyboard 'x' button
    @objc open var shouldDeleteTokenOnBackspace = true
